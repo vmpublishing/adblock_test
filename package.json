@@ -1,6 +1,6 @@
 {
   "name": "adblock_test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test for an active addblocker and throw an event with the current state of addblocking",
   "repository": "git@github.com:vmpublishing.com/adblock_test.git",
   "license": "altered MIT"
