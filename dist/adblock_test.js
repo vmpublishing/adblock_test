@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.dispatchEvent(event);
 
     // remove our test-div
-    addblock_test_element.remove();
+    addblock_test_element.parentNode.removeChild(addblock_test_element);
     addblock_test_element = undefined;
 
   }, 400);
