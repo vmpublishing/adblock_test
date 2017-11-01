@@ -31,7 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
       console.log(text);
 
     // throw the important events
-    var event = new Event(text);
+    var event = document.createEvent('HTMLEvents');
+    event.initEvent(text, true, true);
     document.dispatchEvent(event);
 
     // remove our test-div
